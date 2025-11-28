@@ -1,0 +1,17 @@
+# Bỏ qua môi trường ảo
+venv/
+env/
+.venv/
+
+# Bỏ qua biến môi trường (Bảo mật)
+.env
+.env.*
+!.env.example
+
+# Bỏ qua file rác Python
+__pycache__/
+*.pyc
+
+# Bỏ qua file hệ thống
+.DS_Store
+Thumbs.db
